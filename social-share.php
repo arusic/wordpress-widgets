@@ -21,15 +21,15 @@ class Social_widget extends WP_Widget {
 
 		<div class="socl extra_box">
 			<div class="wrap3">
-				<a href="<?php echo $tw; ?>" target="_blank"><p><?php _e('Twitter', 'shop-commercial-material')?></p>
+				<a href="<?php echo $tw; ?>" target="_blank"><p><?php _e('Twitter', 'themename')?></p>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dev_images/twit.png" alt=""></a>
 			</div>
 			<div class="wrap2">
-				<a href="<?php echo $fb; ?>" target="_blank"><p><?php _e('Facebook', 'shop-commercial-material')?></p>
+				<a href="<?php echo $fb; ?>" target="_blank"><p><?php _e('Facebook', 'themename')?></p>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dev_images/fb.png" alt=""></a>
 			</div>
 			<div class="wrap1">
-				<a href="<?php echo $pi; ?>" target="_blank"><p><?php _e('Google+', 'shop-commercial-material')?></p>
+				<a href="<?php echo $pi; ?>" target="_blank"><p><?php _e('Google+', 'themename')?></p>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dev_images/g_plus.png" alt=""></a>
 			</div>
 		</div>
